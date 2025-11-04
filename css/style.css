@@ -2,22 +2,687 @@
 
 /* Header & Hero */
 
+@media  (max-width: 768px) {
+
+    header {
+      padding: 25px 20px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: auto;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    
+    header h1 {
+      font-size: 28px;
+    }
+
+    header p {
+      font-size: 16px;
+    }
+
+    #hero {
+      padding: 40px 20px;
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: auto;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    
+}
+
 /* Projects */
+
+@media (max-width: 768px) {
+    
+        #projects {
+
+            max-width: 90%;
+            padding: 40px;
+
+        }
+
+        #projects h2 {
+
+            font-size: 35px;
+
+        }
+
+        .project {
+
+            flex-direction: column;
+            text-align: center;
+
+        }
+
+        .project img {
+
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+
+        }
+
+        .description h3 {
+
+            font-size: 25px;
+            margin-top: 15px;
+
+        }
+
+    }
+
+    @media (max-width: 480px) {
+
+        #projects {
+
+            padding: 20px;
+            border-radius: 10px;
+
+        }
+
+        #projects h2 {
+
+            font-size: 28px;
+
+            margin-bottom: 20px;
+
+        }
+
+        .project {
+
+            padding: 15px;
+            margin-bottom: 15px;
+
+        }
+
+        .description h3 {
+
+            font-size: 20px;
+
+            margin-bottom: 10px;
+
+        }
+
+        .description p {
+
+            font-size: 16px;
+
+            line-height: 1.5;
+
+        }
+    
+}
 
 /* Reviews */
 
+@media (max-width: 768px) {
+
+        #reviews {
+
+            max-width: 90%;
+            padding: 40px;
+
+        }
+
+        #reviews h2 {
+
+            font-size: 35px;
+
+        }
+
+        .review {
+
+            text-align: center;
+
+            padding: 25px;
+
+        }
+
+        .review .name h3 {
+
+            margin-bottom: 5px;
+
+            font-size: 25px;
+
+        }
+
+        .review .title h4 {
+
+            font-size: 18px;
+
+            margin-bottom: 15px;
+
+        }
+
+    }
+
+    /* For Mobile Screens */
+
+    @media (max-width: 480px) {
+
+        body {
+
+            padding: 10px;
+            font-size: 15px;
+
+        }
+
+        #reviews {
+
+            padding: 20px;
+            border-radius: 10px;
+
+        }
+
+        #reviews h2 {
+
+            font-size: 28px;
+
+            margin-bottom: 20px;
+
+        }
+
+        .review {
+
+            padding: 15px;
+            margin-bottom: 15px;
+
+        }
+
+        .review .name h3 {
+
+            font-size: 20px;
+
+            margin-bottom: 5px;
+
+        }
+
+        .review .title h4 {
+
+            font-size: 16px;
+
+            margin-bottom: 10px;
+
+        }
+
+        .review .rating p {
+
+            font-size: 30px;
+
+        }
+
+        .review .content p {
+
+            font-size: 16px;
+            line-height: 1.5;
+
+        }
+        
+    }
+
 /* Footer */
+
+@media (max-width: 480px) {
+    
+    footer {
+
+        font-size: 0.8em;
+
+        padding: 15px 10px;
+
+    }
+    
+}
 
 
 /* Media state for Desktop site */
 @media (min-width: 1000px) {
 
+    body {
+
+        background-color: #e6eef6;
+
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+        margin: 0;
+
+        padding: 0;
+
+        text-align: center;
+
+    }
+
     /* Header & Hero */
+
+    header {
+
+        background-color: #0051a8;
+
+        color: #e6eef6;
+
+        padding: 20px 40px;
+
+        text-align: center;
+
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* optional, adds shadow */
+
+        border-radius: 0 0 20px 20px; /* optional, rounds bottom corners */
+
+    }
+
+    /* Main Heading */
+
+    header h1 {
+
+        font-size: 60px;
+
+        color: #001c3b;
+
+        margin-bottom: 30px;
+
+        font-weight: 800;
+
+    }
+
+    /* Hero Section */
+
+    #hero {
+
+        background-color: #b0c9e4;
+
+        padding: 80px;     /* optional, adds space inside the box */
+
+        border-radius: 20px; /* optional, rounds corners */
+
+        max-width: 1000px;
+
+        margin: 80px auto;   /* centers the box */
+
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* optional, adds shadow */
+
+    }
+
+    /* Hero Image */
+
+    #hero-image img {
+
+        width: 400px;
+
+        height: auto;
+
+        object-fit: cover;
+
+        border-radius: 10px;
+
+        display: block;
+
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* optional, adds shadow */
+
+    }
+
+    /* Header Description Text */
+
+    header p {
+
+        font-size: 24px;
+
+        color: #e6eef6;
+
+        margin: 20px auto;
+
+        max-width: 800px;
+
+        line-height: 1.6;
+
+    }
+
+    /* Call to Action Button */
+
+    button {
+
+        background-color: #001c3b;
+
+        color: #e6eef6;
+
+        border: none;
+
+        padding: 15px 30px;
+
+        font-size: 20px;
+
+        border-radius: 10px;
+
+        cursor: pointer;
+
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* optional, adds shadow */
+
+        transition: background-color 0.3s ease;
+
+    }
+
+    /* Button Hover Effect */
+
+    button:hover {
+
+        background-color: #003366;
+        transform: translate(-2px);
+
+    }
+
+    button:active {
+
+        background-color: #04478b;
+        transform: translate(2px);
+
+    }
 
     /* Projects */
 
+    #projects {
+
+        background-color: #0051a8;
+
+        padding: 60px;     /* optional, adds space inside the box */
+        
+        border-radius: 20px; /* optional, rounds corners */
+
+        max-width: 1000px;
+
+        margin: 80px auto;   /* centers the box */
+
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* optional, adds shadow */
+
+    }
+
+    #projects h2 {
+
+        text-align: center;
+
+        color: #e6eef6;
+
+        font-size: 50px;
+
+        margin-bottom: 40px;
+
+        border-bottom: 4px solid #e6eef6;
+
+        display: inline-block;
+
+        padding-bottom: 10px;
+
+        margin-bottom: 60px;
+
+    }
+
+    /* Project Cards */
+
+    .project {
+
+        background-color: #d9e5f2;
+
+        border: 2px solid #001c3b;
+
+        border-radius: 10px;
+
+        padding: 20px;
+
+        margin-bottom: 40px;
+
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        gap: 20px;
+
+        display: flex;
+
+        align-items: center;
+
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    }
+
+    /* Hover effect for project cards */
+
+    .project:hover {
+
+        transform: translateY(-5px);
+
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+    }
+
+    /* Project Image */
+
+    .project img {
+
+        width: 300px;
+
+        height: 300px;
+
+        object-fit: cover;
+
+        /* height: auto; */
+
+        border-radius: 10px;
+
+        background-color: #00244c;
+
+    }
+
+    /* Project Description */
+
+    .project .description {
+
+        flex: 1;
+
+        padding: 20px;
+
+    }
+
+    /* Project Title */ 
+
+    .project .description h3 {
+
+        font-size: 30px; 
+
+        color: #001c3b;
+
+        margin-bottom: 15px;
+
+    }
+
+    /* Project Text */
+    .project .description p {
+
+        font-size: 18px; 
+
+        color: #001c3b;
+
+        line-height: 1.6;
+
+    }
+
+    /* Responsive Layout for Smaller Screens */
+
+    @media (max-width: 1200px) {
+
+        .project {
+
+            flex-direction: column;
+
+            text-align: center;
+
+        }
+
+        .project img {
+
+            width: 100%;
+
+            height: auto;
+
+            margin-bottom: 20px;
+
+        }
+
+        .description h3 {
+
+            margin-top: 15px;
+
+        }
+
+    }
+
     /* Reviews */
 
+    #reviews {
+
+        background-color: #b0c9e4;
+
+        max-width: 800px;
+
+        margin: 80px auto;    /* centers the box */
+
+        padding: 80px;     /* optional, adds space inside the box */
+        
+        border-radius: 20px; /* optional, rounds corners */
+
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* optional, adds shadow */
+
+    }
+
+    /* Reviews Headings */
+
+    #reviews h2 {
+
+        text-align: center;
+
+        color: #001c3b;
+
+        font-size: 50px;
+
+        margin-bottom: 40px;
+
+        border-bottom: 2px solid #001c3b;
+
+        display: inline-block;
+
+        padding-bottom: 10px;
+
+    }
+
+    /* Reviews Cards */
+
+    .review{
+
+        background-color: #d9e5f2;
+
+        border: 1px solid #00244c;
+
+        border-radius: 10px;
+
+        padding: 20px;
+
+        margin-bottom: 20px;
+
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    }
+
+    /* Reviews Name */
+
+    .review .name h3{
+
+        font-size: 25px; 
+
+        color: #001c3b;
+
+        margin-bottom: 10px;
+
+    }
+
+    /* Review Title */
+
+    .review .title h4 {
+
+        font-size: 20px; 
+
+        color: #001c3b;
+
+        font-style: italic;
+
+        padding: 25px 25px 0 0;
+
+        margin: 0 0 25px;
+
+    }
+
+    /* Review Star Rating */
+
+    .review .rating p{
+        font-size: 40px; 
+
+        color: #ffcc00;
+
+        margin-bottom: 15px;
+    }
+
+    /* Review Text */
+    .review .content p {
+
+        font-size: 18px; 
+
+        color: #001c3b;
+
+        line-height: 1.6;
+
+        margin: 0
+
+    }
+
     /* Footer */
+
+    footer {
+
+        background-color: #001c3b;
+
+        color: #e6eef6;
+
+        padding: 20px 40px;
+
+        text-align: center;
+
+        padding: 20px 40px;
+
+        font-family: Arial, Helvetica, sans-serif;
+
+        font-size: 0.9em;
+
+        border-top: 4px solid #0051a8;
+
+        box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* optional, adds shadow */
+
+        margin-top: 80px;
+
+    }
 
 }
