@@ -51,6 +51,50 @@
     
 }
 
+/* Video Section */
+
+#video {
+        
+    margin: 40px auto;
+
+    max-width: 90%;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* optional, adds shadow */
+
+    background-color: #0051a8;
+
+}
+
+.video-wrapper iframe {
+
+    width: 100%;
+
+    height: auto;
+
+    min-height: 800px;
+
+}
+
+.video-caption {
+
+    background-color: #001c3b;
+
+    color: #e6eef6;
+
+    padding: 15px;
+
+    font-size: 16px;
+
+    font-style: italic;
+
+    text-align: center;
+
+}
+
 /* Projects */
 
 @media (max-width: 768px) {
